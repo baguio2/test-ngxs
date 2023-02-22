@@ -1,0 +1,15 @@
+<section>
+  <h3>Contador</h3>
+  <div class="d-flex flex-row mt-3 justify-content-center align-items-center">
+    <button type="button" class="btn btn-secondary me-3" (click)="subtract()">
+      -
+    </button>
+    <h4 class="mb-0">{{ count }}</h4>
+    <button type="button" class="btn btn-primary ms-3" (click)="add()">
+      +
+    </button>
+  </div>
+  <button type="button" class="btn btn-primary ms-3" (click)="resetState()">
+    Reset
+  </button>
+</section>

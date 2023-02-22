@@ -1,0 +1,13 @@
+.content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  .item {
+    position: relative;
+    width: 500px;
+    border-radius: 9px;
+    border: 2px solid blue;
+    padding: 16px;
+  }
+}
